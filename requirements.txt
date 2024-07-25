@@ -1,0 +1,4 @@
+crewai
+Flask
+transformers
+crewai_tools
