@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Topic Processor</title>
+</head>
+<body>
+    <h1>Enter a Topic</h1>
+    <form method="post" action="/">
+        <label for="topic">Topic:</label>
+        <input type="text" id="topic" name="topic">
+        <button type="submit">Submit</button>
+    </form>
+    <h2>Result:</h2>
+    <div>{{ result_str | safe }}</div>
+</body>
+</html>
